@@ -27,11 +27,11 @@
 
 **본 연구에의 적용**: 비평가별 코퍼스에서 빈도·핵심어·연어를 추출하고, 용례 분석으로 질적 맥락을 확인하여 각 비평가의 담론적 특성을 객관화한다.
 
-### 2. CDA + 코퍼스 언어학 순환적 통합 — Baker, Gabrielatos & McEnery (2013)
+### 2. CDA + 코퍼스 언어학 통합 — Baker, Gabrielatos & McEnery (2013)
 
 > Paul Baker, Costas Gabrielatos, Tony McEnery, *Discourse Analysis and Media Attitudes: The Representation of Islam in the British Press* (Cambridge UP, 2013)
 
-**9단계 순환적 프레임워크**:
+**9단계 프레임워크**:
 
 ```
 [1단계] 연구 질문 수립 및 코퍼스 설계
@@ -53,7 +53,7 @@
 [9단계] 종합 해석 및 이론적 논의
 ```
 
-- 양적(코퍼스)↔질적(CDA) 분석을 반복 순환하며 점진적으로 심화
+- 양적(코퍼스)↔질적(CDA) 분석을 반복하며 점진적으로 심화
 - 하향식(이론 주도) + 상향식(데이터 주도) 병행
 
 **본 연구에의 적용**: 1930년대 기교주의 논쟁 코퍼스를 대상으로, 먼저 양적 패턴을 추출한 뒤 비평 원문의 질적 독해와 순환적으로 교차 검증한다.
