@@ -1,0 +1,20 @@
+# PDF files (too large for git)
+*.pdf
+
+# HWP files
+*.hwp
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp folders
+새 폴더/
+
+# IDE
+.vscode/
+.idea/
