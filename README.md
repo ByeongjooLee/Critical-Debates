@@ -1,4 +1,4 @@
-# Critical-Debates: 한국문학 비평논쟁의 코퍼스 언어학 기반 담론분석
+# Critical-Debates: 문학비평 논쟁의 텍스트언어학적 재구성
 
 ## 연구 개요
 
