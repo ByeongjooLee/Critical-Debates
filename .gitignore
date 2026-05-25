@@ -18,3 +18,14 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+.claude/
+
+# 대용량 모델 파일
+*tokenizer*.json
+
+# 압축 파일
+*.zip
+
+# Python 가상환경
+.venv/
+*.pyo
