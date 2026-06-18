@@ -40,7 +40,7 @@
 |------|------|
 | 형태소 분석 | [Kiwi](https://github.com/bab2min/Kiwi) |
 | 근대어 서브워드 토크나이징 | [ModernKoreanSubword](https://github.com/bab2min/kiwipiepy) |
-| 분석 스크립트 | Python 3 (`gigyo_analysis.py`) |
+| 분석 패키지 | Python 3 (`gigyo_analysis_package/gigyo_release/`) |
 | 출력 | `output/report.txt` |
 
 Kiwi와 ModernKoreanSubword를 병행한 이유: 1930년대 비평 텍스트의 이형태·연철 표기·일본어 차용 표현에서 발생하는 현대 형태소 분석기의 오류를 최소화하기 위함이다.
@@ -149,7 +149,8 @@ Gregor Wiedemann, *Text Mining for Qualitative Data Analysis in the Social Scien
 
 ```
 /
-├── gigyo_analysis.py       # 분석 스크립트 (NF, LL, MI, BHR, 접속 표지, 시계열)
+├── gigyo_analysis_package/ # 분석 패키지 (NF, LL, MI, BHR, 접속 표지, 시계열)
+│   └── gigyo_release/       # config·core·analyses + runner + test_smoke
 ├── corpus/
 │   ├── 1차텍스트/
 │   │   ├── 김기림/         # 비평 원문 txt
@@ -167,11 +168,15 @@ Gregor Wiedemann, *Text Mining for Qualitative Data Analysis in the Social Scien
 
 ```bash
 # 의존 패키지 설치
-pip install kiwipiepy
+cd gigyo_analysis_package/gigyo_release
+pip install -r requirements.txt   # kiwipiepy==0.23.2
 
-# 분석 실행
-python gigyo_analysis.py
-# → output/report.txt 생성
+# 동작 확인 (자작 예시 코퍼스)
+python test_smoke.py
+
+# 실제 코퍼스 분석 실행
+python run_all.py --corpus ../.. --output ../../output
+# → output/report.txt · output/results.json 생성
 ```
 
 ---

@@ -427,215 +427,185 @@
     "critic_vs_critic": {
       "김기림": {
         "display_name": "김기림",
-        "note": "귀납적 추출 — 탐색적 결과 (코퍼스 규모 제약: LL 절대값보다 상대 순위 중시)",
+        "note": "귀납 추출 — 소규모 제약상 LL 절대값보다 상대순위 중시",
         "keywords": [
           {
             "word": "비평",
             "ll": 141.14,
-            "effect_size_pct": 430.0,
             "target_freq": 162,
             "reference_freq": 59
           },
           {
             "word": "그래서",
             "ll": 88.09,
-            "effect_size_pct": 4532.8,
             "target_freq": 48,
             "reference_freq": 2
           },
           {
             "word": "오늘",
             "ll": 69.55,
-            "effect_size_pct": 3664.2,
             "target_freq": 39,
             "reference_freq": 2
           },
           {
             "word": "비평가",
             "ll": 58.33,
-            "effect_size_pct": 720.4,
             "target_freq": 51,
             "reference_freq": 12
           },
           {
             "word": "시",
             "ll": 55.89,
-            "effect_size_pct": 62.5,
             "target_freq": 447,
             "reference_freq": 531
           },
           {
             "word": "인생",
             "ll": 51.18,
-            "effect_size_pct": 1289.8,
             "target_freq": 36,
             "reference_freq": 5
           },
           {
             "word": "모더니즘",
             "ll": 50.26,
-            "effect_size_pct": 5111.9,
             "target_freq": 27,
             "reference_freq": 1
           },
           {
             "word": "차라리",
             "ll": 45.17,
-            "effect_size_pct": 2506.0,
             "target_freq": 27,
             "reference_freq": 2
           },
           {
             "word": "그런데",
             "ll": 35.8,
-            "effect_size_pct": 3760.7,
             "target_freq": 20,
             "reference_freq": 1
           },
           {
             "word": "과학",
             "ll": 34.22,
-            "effect_size_pct": 260.3,
             "target_freq": 56,
             "reference_freq": 30
           },
           {
             "word": "더욱",
             "ll": 33.83,
-            "effect_size_pct": 1106.5,
             "target_freq": 25,
             "reference_freq": 4
           },
           {
             "word": "분야",
             "ll": 33.75,
-            "effect_size_pct": 3567.6,
             "target_freq": 19,
             "reference_freq": 1
           },
           {
             "word": "문명",
             "ll": 33.44,
-            "effect_size_pct": 479.1,
             "target_freq": 36,
             "reference_freq": 12
           },
           {
             "word": "아니",
             "ll": 32.57,
-            "effect_size_pct": 401.9,
             "target_freq": 39,
             "reference_freq": 15
           },
           {
             "word": "이윽고",
             "ll": 32.25,
-            "effect_size_pct": null,
             "target_freq": 15,
             "reference_freq": 0
           },
           {
             "word": "혁명",
             "ll": 31.02,
-            "effect_size_pct": 672.1,
             "target_freq": 28,
             "reference_freq": 7
           },
           {
             "word": "세기",
             "ll": 28.94,
-            "effect_size_pct": 277.7,
             "target_freq": 45,
             "reference_freq": 23
           },
           {
             "word": "슈르",
             "ll": 27.95,
-            "effect_size_pct": null,
             "target_freq": 13,
             "reference_freq": 0
           },
           {
             "word": "매우",
             "ll": 27.7,
-            "effect_size_pct": 1186.9,
             "target_freq": 20,
             "reference_freq": 3
           },
           {
             "word": "또한",
             "ll": 27.63,
-            "effect_size_pct": 277.3,
             "target_freq": 43,
             "reference_freq": 22
           },
           {
             "word": "음악",
             "ll": 26.51,
-            "effect_size_pct": 913.4,
             "target_freq": 21,
             "reference_freq": 4
           },
           {
             "word": "서양",
             "ll": 25.8,
-            "effect_size_pct": null,
             "target_freq": 12,
             "reference_freq": 0
           },
           {
             "word": "분석",
             "ll": 24.9,
-            "effect_size_pct": 640.0,
             "target_freq": 23,
             "reference_freq": 6
           },
           {
             "word": "까닭",
             "ll": 24.75,
-            "effect_size_pct": 440.5,
             "target_freq": 28,
             "reference_freq": 10
           },
           {
             "word": "태도",
             "ll": 24.04,
-            "effect_size_pct": 221.7,
             "target_freq": 45,
             "reference_freq": 27
           },
           {
             "word": "자체",
             "ll": 22.55,
-            "effect_size_pct": 327.4,
             "target_freq": 31,
             "reference_freq": 14
           },
           {
             "word": "집단",
             "ll": 21.58,
-            "effect_size_pct": 2409.4,
             "target_freq": 13,
             "reference_freq": 1
           },
           {
             "word": "엘리엇",
             "ll": 21.5,
-            "effect_size_pct": null,
             "target_freq": 10,
             "reference_freq": 0
           },
           {
             "word": "원시",
             "ll": 21.18,
-            "effect_size_pct": 768.7,
             "target_freq": 18,
             "reference_freq": 4
           },
           {
             "word": "벌써",
             "ll": 21.16,
-            "effect_size_pct": 240.1,
             "target_freq": 37,
             "reference_freq": 21
           }
@@ -643,215 +613,185 @@
       },
       "박용철": {
         "display_name": "박용철",
-        "note": "귀납적 추출 — 탐색적 결과 (코퍼스 규모 제약: LL 절대값보다 상대 순위 중시)",
+        "note": "귀납 추출 — 소규모 제약상 LL 절대값보다 상대순위 중시",
         "keywords": [
           {
             "word": "인상",
             "ll": 46.58,
-            "effect_size_pct": 1132.4,
             "target_freq": 22,
             "reference_freq": 10
           },
           {
             "word": "측정",
             "ll": 45.3,
-            "effect_size_pct": null,
             "target_freq": 12,
             "reference_freq": 0
           },
           {
             "word": "영향",
             "ll": 39.16,
-            "effect_size_pct": 562.0,
             "target_freq": 26,
             "reference_freq": 22
           },
           {
             "word": "변화",
             "ll": 38.78,
-            "effect_size_pct": 918.5,
             "target_freq": 20,
             "reference_freq": 11
           },
           {
             "word": "임화",
             "ll": 38.38,
-            "effect_size_pct": 2000.6,
             "target_freq": 15,
             "reference_freq": 4
           },
           {
             "word": "끼치",
             "ll": 37.95,
-            "effect_size_pct": 3541.1,
             "target_freq": 13,
             "reference_freq": 2
           },
           {
             "word": "거름",
             "ll": 33.97,
-            "effect_size_pct": null,
             "target_freq": 9,
             "reference_freq": 0
           },
           {
             "word": "효과",
             "ll": 31.86,
-            "effect_size_pct": 852.3,
             "target_freq": 17,
             "reference_freq": 10
           },
           {
             "word": "김기림",
             "ll": 31.51,
-            "effect_size_pct": 740.2,
             "target_freq": 18,
             "reference_freq": 12
           },
           {
             "word": "기술",
             "ll": 30.65,
-            "effect_size_pct": 385.5,
             "target_freq": 26,
             "reference_freq": 30
           },
           {
             "word": "기다리",
             "ll": 27.59,
-            "effect_size_pct": 2700.8,
             "target_freq": 10,
             "reference_freq": 2
           },
           {
             "word": "변설",
             "ll": 25.44,
-            "effect_size_pct": 1440.5,
             "target_freq": 11,
             "reference_freq": 4
           },
           {
             "word": "기교주의",
             "ll": 24.71,
-            "effect_size_pct": 278.1,
             "target_freq": 27,
             "reference_freq": 40
           },
           {
             "word": "송이",
             "ll": 22.65,
-            "effect_size_pct": null,
             "target_freq": 6,
             "reference_freq": 0
           },
           {
             "word": "체험",
             "ll": 22.26,
-            "effect_size_pct": 709.1,
             "target_freq": 13,
             "reference_freq": 9
           },
           {
             "word": "비유",
             "ll": 20.85,
-            "effect_size_pct": 2140.7,
             "target_freq": 8,
             "reference_freq": 2
           },
           {
             "word": "선인",
             "ll": 20.72,
-            "effect_size_pct": 3821.2,
             "target_freq": 7,
             "reference_freq": 1
           },
           {
             "word": "심정",
             "ll": 20.72,
-            "effect_size_pct": 3821.2,
             "target_freq": 7,
             "reference_freq": 1
           },
           {
             "word": "고안",
             "ll": 20.72,
-            "effect_size_pct": 3821.2,
             "target_freq": 7,
             "reference_freq": 1
           },
           {
             "word": "아니하",
             "ll": 20.12,
-            "effect_size_pct": 358.3,
             "target_freq": 18,
             "reference_freq": 22
           },
           {
             "word": "스사",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "추측",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "편집",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "기후",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "생애",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "일생",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "절정",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "태풍",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "경로",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           },
           {
             "word": "쾌감",
             "ll": 18.87,
-            "effect_size_pct": null,
             "target_freq": 5,
             "reference_freq": 0
           }
@@ -859,222 +799,193 @@
       },
       "임화": {
         "display_name": "임화",
-        "note": "귀납적 추출 — 탐색적 결과 (코퍼스 규모 제약: LL 절대값보다 상대 순위 중시)",
+        "note": "귀납 추출 — 소규모 제약상 LL 절대값보다 상대순위 중시",
         "keywords": [
           {
             "word": "가운데",
             "ll": 148.51,
-            "effect_size_pct": 633.9,
             "target_freq": 204,
             "reference_freq": 27
           },
           {
             "word": "문학",
             "ll": 136.01,
-            "effect_size_pct": 181.0,
             "target_freq": 434,
             "reference_freq": 150
           },
           {
             "word": "낭만주의",
             "ll": 102.5,
-            "effect_size_pct": 2878.8,
             "target_freq": 92,
             "reference_freq": 3
           },
           {
             "word": "언어",
             "ll": 101.16,
-            "effect_size_pct": 365.8,
             "target_freq": 187,
             "reference_freq": 39
           },
           {
             "word": "리얼리즘",
             "ll": 74.97,
-            "effect_size_pct": 561.7,
             "target_freq": 109,
             "reference_freq": 16
           },
           {
             "word": "낭만",
             "ll": 57.01,
-            "effect_size_pct": null,
             "target_freq": 42,
             "reference_freq": 0
           },
           {
             "word": "이곳",
             "ll": 48.93,
-            "effect_size_pct": 3979.7,
             "target_freq": 42,
             "reference_freq": 1
           },
           {
             "word": "시가",
             "ll": 48.64,
-            "effect_size_pct": 1187.0,
             "target_freq": 53,
             "reference_freq": 4
           },
           {
             "word": "현실",
             "ll": 45.27,
-            "effect_size_pct": 133.8,
             "target_freq": 195,
             "reference_freq": 81
           },
           {
             "word": "생활",
             "ll": 40.65,
-            "effect_size_pct": 180.6,
             "target_freq": 130,
             "reference_freq": 45
           },
           {
             "word": "과정",
             "ll": 38.34,
-            "effect_size_pct": 400.6,
             "target_freq": 67,
             "reference_freq": 13
           },
           {
             "word": "경향",
             "ll": 36.89,
-            "effect_size_pct": 169.8,
             "target_freq": 125,
             "reference_freq": 45
           },
           {
             "word": "인간",
             "ll": 35.19,
-            "effect_size_pct": 174.8,
             "target_freq": 116,
             "reference_freq": 41
           },
           {
             "word": "반영",
             "ll": 32.24,
-            "effect_size_pct": 715.9,
             "target_freq": 42,
             "reference_freq": 5
           },
           {
             "word": "시민",
             "ll": 31.98,
-            "effect_size_pct": 424.5,
             "target_freq": 54,
             "reference_freq": 10
           },
           {
             "word": "전형",
             "ll": 31.22,
-            "effect_size_pct": null,
             "target_freq": 23,
             "reference_freq": 0
           },
           {
             "word": "그러므로",
             "ll": 31.06,
-            "effect_size_pct": 201.5,
             "target_freq": 90,
             "reference_freq": 29
           },
           {
             "word": "실천",
             "ll": 30.77,
-            "effect_size_pct": 1033.2,
             "target_freq": 35,
             "reference_freq": 3
           },
           {
             "word": "사유",
             "ll": 30.72,
-            "effect_size_pct": 2619.8,
             "target_freq": 28,
             "reference_freq": 1
           },
           {
             "word": "대신",
             "ll": 30.49,
-            "effect_size_pct": 340.8,
             "target_freq": 59,
             "reference_freq": 13
           },
           {
             "word": "부르주아",
             "ll": 29.86,
-            "effect_size_pct": null,
             "target_freq": 22,
             "reference_freq": 0
           },
           {
             "word": "만일",
             "ll": 28.51,
-            "effect_size_pct": null,
             "target_freq": 21,
             "reference_freq": 0
           },
           {
             "word": "양자",
             "ll": 27.15,
-            "effect_size_pct": null,
             "target_freq": 20,
             "reference_freq": 0
           },
           {
             "word": "백군",
             "ll": 27.15,
-            "effect_size_pct": null,
             "target_freq": 20,
             "reference_freq": 0
           },
           {
             "word": "때문",
             "ll": 27.01,
-            "effect_size_pct": 242.5,
             "target_freq": 67,
             "reference_freq": 19
           },
           {
             "word": "조선",
             "ll": 26.82,
-            "effect_size_pct": 175.7,
             "target_freq": 88,
             "reference_freq": 31
           },
           {
             "word": "창조",
             "ll": 26.16,
-            "effect_size_pct": 396.5,
             "target_freq": 46,
             "reference_freq": 9
           },
           {
             "word": "반대",
             "ll": 26.14,
-            "effect_size_pct": 1259.9,
             "target_freq": 28,
             "reference_freq": 2
           },
           {
             "word": "같이",
             "ll": 25.84,
-            "effect_size_pct": 175.2,
             "target_freq": 85,
             "reference_freq": 30
           },
           {
             "word": "과거",
             "ll": 25.78,
-            "effect_size_pct": 288.5,
             "target_freq": 56,
             "reference_freq": 14
           }
         ]
       }
     },
-    "critic_vs_reference": null
+    "critic_vs_reference": null,
+    "note": "기준: 해당 비평가 vs 나머지 비평가 합(keyness). 전체 코퍼스 대비 아님."
   },
   "collocations": {
     "기교": {
@@ -1084,54 +995,62 @@
         "collocates": [
           {
             "word": "파",
-            "mi": 8.11,
+            "mi": 4.79,
             "co_freq": 4,
-            "word_freq": 22
+            "word_freq": 22,
+            "expected": 0.144
           },
           {
             "word": "통일",
-            "mi": 8.07,
+            "mi": 4.75,
             "co_freq": 3,
-            "word_freq": 17
+            "word_freq": 17,
+            "expected": 0.112
           },
           {
             "word": "주의",
-            "mi": 7.84,
+            "mi": 4.51,
             "co_freq": 3,
-            "word_freq": 20
+            "word_freq": 20,
+            "expected": 0.131
           },
           {
             "word": "내용",
-            "mi": 7.7,
+            "mi": 4.38,
             "co_freq": 3,
-            "word_freq": 22
+            "word_freq": 22,
+            "expected": 0.144
           },
           {
             "word": "문제",
-            "mi": 6.63,
+            "mi": 3.31,
             "co_freq": 3,
-            "word_freq": 46
+            "word_freq": 46,
+            "expected": 0.302
           },
           {
             "word": "하",
-            "mi": 3.93,
+            "mi": 0.61,
             "co_freq": 4,
-            "word_freq": 399
+            "word_freq": 399,
+            "expected": 2.62
           },
           {
             "word": "시",
-            "mi": 3.35,
+            "mi": 0.03,
             "co_freq": 3,
-            "word_freq": 447
+            "word_freq": 447,
+            "expected": 2.935
           },
           {
             "word": "것",
-            "mi": 2.79,
+            "mi": -0.53,
             "co_freq": 3,
-            "word_freq": 661
+            "word_freq": 661,
+            "expected": 4.341
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "박용철": {
         "display_name": "박용철",
@@ -1139,66 +1058,76 @@
         "collocates": [
           {
             "word": "중시",
-            "mi": 8.4,
+            "mi": 5.08,
             "co_freq": 3,
-            "word_freq": 4
+            "word_freq": 4,
+            "expected": 0.089
           },
           {
             "word": "파",
-            "mi": 8.14,
+            "mi": 4.82,
             "co_freq": 5,
-            "word_freq": 8
+            "word_freq": 8,
+            "expected": 0.178
           },
           {
             "word": "주의",
-            "mi": 7.82,
+            "mi": 4.49,
             "co_freq": 6,
-            "word_freq": 12
+            "word_freq": 12,
+            "expected": 0.266
           },
           {
             "word": "시단",
-            "mi": 6.57,
+            "mi": 3.25,
             "co_freq": 4,
-            "word_freq": 19
+            "word_freq": 19,
+            "expected": 0.422
           },
           {
             "word": "조선",
-            "mi": 6.49,
+            "mi": 3.17,
             "co_freq": 3,
-            "word_freq": 15
+            "word_freq": 15,
+            "expected": 0.333
           },
           {
             "word": "씨",
-            "mi": 5.63,
+            "mi": 2.3,
             "co_freq": 8,
-            "word_freq": 73
+            "word_freq": 73,
+            "expected": 1.62
           },
           {
             "word": "대하",
-            "mi": 5.36,
+            "mi": 2.03,
             "co_freq": 3,
-            "word_freq": 33
+            "word_freq": 33,
+            "expected": 0.732
           },
           {
             "word": "시인",
-            "mi": 5.23,
+            "mi": 1.91,
             "co_freq": 5,
-            "word_freq": 60
+            "word_freq": 60,
+            "expected": 1.332
           },
           {
             "word": "시",
-            "mi": 4.42,
+            "mi": 1.1,
             "co_freq": 7,
-            "word_freq": 147
+            "word_freq": 147,
+            "expected": 3.262
           },
           {
             "word": "것",
-            "mi": 2.95,
+            "mi": -0.37,
             "co_freq": 5,
-            "word_freq": 291
+            "word_freq": 291,
+            "expected": 6.458
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "임화": {
         "display_name": "임화",
@@ -1206,96 +1135,111 @@
         "collocates": [
           {
             "word": "파",
-            "mi": 8.74,
+            "mi": 5.42,
             "co_freq": 25,
-            "word_freq": 30
+            "word_freq": 30,
+            "expected": 0.585
           },
           {
             "word": "단일",
-            "mi": 8.59,
+            "mi": 5.26,
             "co_freq": 3,
-            "word_freq": 4
+            "word_freq": 4,
+            "expected": 0.078
           },
           {
             "word": "논란",
-            "mi": 8.26,
+            "mi": 4.94,
             "co_freq": 3,
-            "word_freq": 5
+            "word_freq": 5,
+            "expected": 0.098
           },
           {
             "word": "번영",
-            "mi": 8.26,
+            "mi": 4.94,
             "co_freq": 3,
-            "word_freq": 5
+            "word_freq": 5,
+            "expected": 0.098
           },
           {
             "word": "시단",
-            "mi": 7.0,
+            "mi": 3.68,
             "co_freq": 4,
-            "word_freq": 16
+            "word_freq": 16,
+            "expected": 0.312
           },
           {
             "word": "순수",
-            "mi": 6.61,
+            "mi": 3.29,
             "co_freq": 4,
-            "word_freq": 21
+            "word_freq": 21,
+            "expected": 0.41
           },
           {
             "word": "완성",
-            "mi": 6.19,
+            "mi": 2.87,
             "co_freq": 3,
-            "word_freq": 21
+            "word_freq": 21,
+            "expected": 0.41
           },
           {
             "word": "주의",
-            "mi": 6.14,
+            "mi": 2.82,
             "co_freq": 8,
-            "word_freq": 58
+            "word_freq": 58,
+            "expected": 1.132
           },
           {
             "word": "전체",
-            "mi": 6.06,
+            "mi": 2.74,
             "co_freq": 3,
-            "word_freq": 23
+            "word_freq": 23,
+            "expected": 0.449
           },
           {
             "word": "통일",
-            "mi": 6.0,
+            "mi": 2.68,
             "co_freq": 4,
-            "word_freq": 32
+            "word_freq": 32,
+            "expected": 0.624
           },
           {
             "word": "금일",
-            "mi": 6.0,
+            "mi": 2.68,
             "co_freq": 4,
-            "word_freq": 32
+            "word_freq": 32,
+            "expected": 0.624
           },
           {
             "word": "내용",
-            "mi": 5.83,
+            "mi": 2.51,
             "co_freq": 7,
-            "word_freq": 63
+            "word_freq": 63,
+            "expected": 1.229
           },
           {
             "word": "다른",
-            "mi": 5.68,
+            "mi": 2.36,
             "co_freq": 3,
-            "word_freq": 30
+            "word_freq": 30,
+            "expected": 0.585
           },
           {
             "word": "시",
-            "mi": 5.59,
+            "mi": 2.26,
             "co_freq": 36,
-            "word_freq": 384
+            "word_freq": 384,
+            "expected": 7.493
           },
           {
             "word": "만들",
-            "mi": 5.59,
+            "mi": 2.26,
             "co_freq": 3,
-            "word_freq": 32
+            "word_freq": 32,
+            "expected": 0.624
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       }
     },
     "기술": {
@@ -1305,96 +1249,111 @@
         "collocates": [
           {
             "word": "일부",
-            "mi": 8.05,
+            "mi": 4.73,
             "co_freq": 3,
-            "word_freq": 9
+            "word_freq": 9,
+            "expected": 0.113
           },
           {
             "word": "면",
-            "mi": 8.05,
+            "mi": 4.73,
             "co_freq": 3,
-            "word_freq": 9
+            "word_freq": 9,
+            "expected": 0.113
           },
           {
             "word": "작",
-            "mi": 7.63,
+            "mi": 4.31,
             "co_freq": 4,
-            "word_freq": 16
+            "word_freq": 16,
+            "expected": 0.201
           },
           {
             "word": "그치",
-            "mi": 7.63,
+            "mi": 4.31,
             "co_freq": 3,
-            "word_freq": 12
+            "word_freq": 12,
+            "expected": 0.151
           },
           {
             "word": "부분",
-            "mi": 7.24,
+            "mi": 3.92,
             "co_freq": 4,
-            "word_freq": 21
+            "word_freq": 21,
+            "expected": 0.264
           },
           {
             "word": "발견",
-            "mi": 6.63,
+            "mi": 3.31,
             "co_freq": 4,
-            "word_freq": 32
+            "word_freq": 32,
+            "expected": 0.403
           },
           {
             "word": "문제",
-            "mi": 6.43,
+            "mi": 3.11,
             "co_freq": 5,
-            "word_freq": 46
+            "word_freq": 46,
+            "expected": 0.579
           },
           {
             "word": "작가",
-            "mi": 5.85,
+            "mi": 2.53,
             "co_freq": 4,
-            "word_freq": 55
+            "word_freq": 55,
+            "expected": 0.692
           },
           {
             "word": "같",
-            "mi": 5.29,
+            "mi": 1.97,
             "co_freq": 3,
-            "word_freq": 61
+            "word_freq": 61,
+            "expected": 0.768
           },
           {
             "word": "시대",
-            "mi": 5.26,
+            "mi": 1.94,
             "co_freq": 3,
-            "word_freq": 62
+            "word_freq": 62,
+            "expected": 0.78
           },
           {
             "word": "그것",
-            "mi": 4.76,
+            "mi": 1.44,
             "co_freq": 8,
-            "word_freq": 234
+            "word_freq": 234,
+            "expected": 2.945
           },
           {
             "word": "되",
-            "mi": 4.63,
+            "mi": 1.31,
             "co_freq": 4,
-            "word_freq": 128
+            "word_freq": 128,
+            "expected": 1.611
           },
           {
             "word": "비평",
-            "mi": 4.62,
+            "mi": 1.29,
             "co_freq": 5,
-            "word_freq": 162
+            "word_freq": 162,
+            "expected": 2.039
           },
           {
             "word": "속",
-            "mi": 4.42,
+            "mi": 1.1,
             "co_freq": 3,
-            "word_freq": 111
+            "word_freq": 111,
+            "expected": 1.397
           },
           {
             "word": "하",
-            "mi": 4.32,
+            "mi": 0.99,
             "co_freq": 10,
-            "word_freq": 399
+            "word_freq": 399,
+            "expected": 5.022
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "박용철": {
         "display_name": "박용철",
@@ -1402,90 +1361,104 @@
         "collocates": [
           {
             "word": "목적",
-            "mi": 7.29,
+            "mi": 3.96,
             "co_freq": 3,
-            "word_freq": 6
+            "word_freq": 6,
+            "expected": 0.192
           },
           {
             "word": "최후",
-            "mi": 6.7,
+            "mi": 3.38,
             "co_freq": 3,
-            "word_freq": 9
+            "word_freq": 9,
+            "expected": 0.288
           },
           {
             "word": "인상",
-            "mi": 5.41,
+            "mi": 2.09,
             "co_freq": 3,
-            "word_freq": 22
+            "word_freq": 22,
+            "expected": 0.705
           },
           {
             "word": "대하",
-            "mi": 4.83,
+            "mi": 1.5,
             "co_freq": 3,
-            "word_freq": 33
+            "word_freq": 33,
+            "expected": 1.058
           },
           {
             "word": "보",
-            "mi": 4.56,
+            "mi": 1.24,
             "co_freq": 4,
-            "word_freq": 53
+            "word_freq": 53,
+            "expected": 1.699
           },
           {
             "word": "이것",
-            "mi": 4.55,
+            "mi": 1.23,
             "co_freq": 3,
-            "word_freq": 40
+            "word_freq": 40,
+            "expected": 1.282
           },
           {
             "word": "한",
-            "mi": 4.25,
+            "mi": 0.93,
             "co_freq": 5,
-            "word_freq": 82
+            "word_freq": 82,
+            "expected": 2.629
           },
           {
             "word": "것",
-            "mi": 4.19,
+            "mi": 0.87,
             "co_freq": 17,
-            "word_freq": 291
+            "word_freq": 291,
+            "expected": 9.328
           },
           {
             "word": "우리",
-            "mi": 4.07,
+            "mi": 0.75,
             "co_freq": 7,
-            "word_freq": 130
+            "word_freq": 130,
+            "expected": 4.167
           },
           {
             "word": "시",
-            "mi": 3.89,
+            "mi": 0.57,
             "co_freq": 7,
-            "word_freq": 147
+            "word_freq": 147,
+            "expected": 4.712
           },
           {
             "word": "수",
-            "mi": 3.88,
+            "mi": 0.56,
             "co_freq": 5,
-            "word_freq": 106
+            "word_freq": 106,
+            "expected": 3.398
           },
           {
             "word": "그",
-            "mi": 3.85,
+            "mi": 0.53,
             "co_freq": 10,
-            "word_freq": 216
+            "word_freq": 216,
+            "expected": 6.924
           },
           {
             "word": "하",
-            "mi": 3.79,
+            "mi": 0.47,
             "co_freq": 9,
-            "word_freq": 203
+            "word_freq": 203,
+            "expected": 6.507
           },
           {
             "word": "있",
-            "mi": 3.29,
+            "mi": -0.04,
             "co_freq": 5,
-            "word_freq": 160
+            "word_freq": 160,
+            "expected": 5.129
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "임화": {
         "display_name": "임화",
@@ -1493,24 +1466,27 @@
         "collocates": [
           {
             "word": "단순",
-            "mi": 8.92,
+            "mi": 5.6,
             "co_freq": 3,
-            "word_freq": 24
+            "word_freq": 24,
+            "expected": 0.062
           },
           {
             "word": "시",
-            "mi": 4.92,
+            "mi": 1.6,
             "co_freq": 3,
-            "word_freq": 384
+            "word_freq": 384,
+            "expected": 0.99
           },
           {
             "word": "것",
-            "mi": 4.53,
+            "mi": 1.21,
             "co_freq": 7,
-            "word_freq": 1172
+            "word_freq": 1172,
+            "expected": 3.02
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       }
     },
     "형식": {
@@ -1520,78 +1496,89 @@
         "collocates": [
           {
             "word": "옹호",
-            "mi": 8.9,
+            "mi": 5.58,
             "co_freq": 4,
-            "word_freq": 9
+            "word_freq": 9,
+            "expected": 0.084
           },
           {
             "word": "대체로",
-            "mi": 8.2,
+            "mi": 4.87,
             "co_freq": 3,
-            "word_freq": 11
+            "word_freq": 11,
+            "expected": 0.102
           },
           {
             "word": "편",
-            "mi": 7.13,
+            "mi": 3.81,
             "co_freq": 3,
-            "word_freq": 23
+            "word_freq": 23,
+            "expected": 0.214
           },
           {
             "word": "문학",
-            "mi": 5.76,
+            "mi": 2.44,
             "co_freq": 7,
-            "word_freq": 139
+            "word_freq": 139,
+            "expected": 1.293
           },
           {
             "word": "되",
-            "mi": 4.65,
+            "mi": 1.33,
             "co_freq": 3,
-            "word_freq": 128
+            "word_freq": 128,
+            "expected": 1.191
           },
           {
             "word": "가지",
-            "mi": 4.63,
+            "mi": 1.31,
             "co_freq": 3,
-            "word_freq": 130
+            "word_freq": 130,
+            "expected": 1.209
           },
           {
             "word": "우리",
-            "mi": 4.15,
+            "mi": 0.83,
             "co_freq": 3,
-            "word_freq": 182
+            "word_freq": 182,
+            "expected": 1.693
           },
           {
             "word": "것",
-            "mi": 3.87,
+            "mi": 0.55,
             "co_freq": 9,
-            "word_freq": 661
+            "word_freq": 661,
+            "expected": 6.15
           },
           {
             "word": "있",
-            "mi": 3.5,
+            "mi": 0.18,
             "co_freq": 5,
-            "word_freq": 475
+            "word_freq": 475,
+            "expected": 4.419
           },
           {
             "word": "시",
-            "mi": 3.27,
+            "mi": -0.06,
             "co_freq": 4,
-            "word_freq": 447
+            "word_freq": 447,
+            "expected": 4.159
           },
           {
             "word": "그",
-            "mi": 2.7,
+            "mi": -0.62,
             "co_freq": 3,
-            "word_freq": 495
+            "word_freq": 495,
+            "expected": 4.605
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "박용철": {
         "display_name": "박용철",
         "target_freq": 3,
         "collocates": [],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "임화": {
         "display_name": "임화",
@@ -1599,96 +1586,111 @@
         "collocates": [
           {
             "word": "스타일",
-            "mi": 9.56,
+            "mi": 6.24,
             "co_freq": 3,
-            "word_freq": 2
+            "word_freq": 2,
+            "expected": 0.04
           },
           {
             "word": "외견",
-            "mi": 8.97,
+            "mi": 5.65,
             "co_freq": 3,
-            "word_freq": 3
+            "word_freq": 3,
+            "expected": 0.06
           },
           {
             "word": "자유시",
-            "mi": 7.75,
+            "mi": 4.43,
             "co_freq": 3,
-            "word_freq": 7
+            "word_freq": 7,
+            "expected": 0.139
           },
           {
             "word": "내용",
-            "mi": 6.9,
+            "mi": 3.58,
             "co_freq": 15,
-            "word_freq": 63
+            "word_freq": 63,
+            "expected": 1.252
           },
           {
             "word": "논리",
-            "mi": 6.31,
+            "mi": 2.99,
             "co_freq": 3,
-            "word_freq": 19
+            "word_freq": 19,
+            "expected": 0.378
           },
           {
             "word": "부르",
-            "mi": 5.93,
+            "mi": 2.61,
             "co_freq": 4,
-            "word_freq": 33
+            "word_freq": 33,
+            "expected": 0.656
           },
           {
             "word": "갖",
-            "mi": 5.47,
+            "mi": 2.15,
             "co_freq": 3,
-            "word_freq": 34
+            "word_freq": 34,
+            "expected": 0.676
           },
           {
             "word": "뿐",
-            "mi": 5.34,
+            "mi": 2.02,
             "co_freq": 5,
-            "word_freq": 62
+            "word_freq": 62,
+            "expected": 1.233
           },
           {
             "word": "주의",
-            "mi": 5.12,
+            "mi": 1.79,
             "co_freq": 4,
-            "word_freq": 58
+            "word_freq": 58,
+            "expected": 1.153
           },
           {
             "word": "대신",
-            "mi": 5.09,
+            "mi": 1.77,
             "co_freq": 4,
-            "word_freq": 59
+            "word_freq": 59,
+            "expected": 1.173
           },
           {
             "word": "때문",
-            "mi": 4.91,
+            "mi": 1.59,
             "co_freq": 4,
-            "word_freq": 67
+            "word_freq": 67,
+            "expected": 1.332
           },
           {
             "word": "언어",
-            "mi": 4.89,
+            "mi": 1.57,
             "co_freq": 11,
-            "word_freq": 187
+            "word_freq": 187,
+            "expected": 3.718
           },
           {
             "word": "때",
-            "mi": 4.8,
+            "mi": 1.48,
             "co_freq": 3,
-            "word_freq": 54
+            "word_freq": 54,
+            "expected": 1.074
           },
           {
             "word": "가장",
-            "mi": 4.61,
+            "mi": 1.28,
             "co_freq": 3,
-            "word_freq": 62
+            "word_freq": 62,
+            "expected": 1.233
           },
           {
             "word": "데",
-            "mi": 4.56,
+            "mi": 1.24,
             "co_freq": 3,
-            "word_freq": 64
+            "word_freq": 64,
+            "expected": 1.272
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       }
     },
     "내용": {
@@ -1698,96 +1700,111 @@
         "collocates": [
           {
             "word": "주의",
-            "mi": 7.7,
+            "mi": 4.38,
             "co_freq": 5,
-            "word_freq": 20
+            "word_freq": 20,
+            "expected": 0.241
           },
           {
             "word": "기교",
-            "mi": 7.7,
+            "mi": 4.38,
             "co_freq": 3,
-            "word_freq": 12
+            "word_freq": 12,
+            "expected": 0.144
           },
           {
             "word": "인식",
-            "mi": 7.61,
+            "mi": 4.29,
             "co_freq": 4,
-            "word_freq": 17
+            "word_freq": 17,
+            "expected": 0.205
           },
           {
             "word": "편",
-            "mi": 7.17,
+            "mi": 3.85,
             "co_freq": 4,
-            "word_freq": 23
+            "word_freq": 23,
+            "expected": 0.277
           },
           {
             "word": "사상",
-            "mi": 7.04,
+            "mi": 3.71,
             "co_freq": 3,
-            "word_freq": 19
+            "word_freq": 19,
+            "expected": 0.229
           },
           {
             "word": "주관",
-            "mi": 6.53,
+            "mi": 3.21,
             "co_freq": 4,
-            "word_freq": 36
+            "word_freq": 36,
+            "expected": 0.433
           },
           {
             "word": "세계",
-            "mi": 5.53,
+            "mi": 2.21,
             "co_freq": 3,
-            "word_freq": 54
+            "word_freq": 54,
+            "expected": 0.65
           },
           {
             "word": "시대",
-            "mi": 5.33,
+            "mi": 2.01,
             "co_freq": 3,
-            "word_freq": 62
+            "word_freq": 62,
+            "expected": 0.746
           },
           {
             "word": "이",
-            "mi": 4.79,
+            "mi": 1.47,
             "co_freq": 5,
-            "word_freq": 150
+            "word_freq": 150,
+            "expected": 1.806
           },
           {
             "word": "문학",
-            "mi": 4.58,
+            "mi": 1.26,
             "co_freq": 4,
-            "word_freq": 139
+            "word_freq": 139,
+            "expected": 1.674
           },
           {
             "word": "되",
-            "mi": 4.28,
+            "mi": 0.96,
             "co_freq": 3,
-            "word_freq": 128
+            "word_freq": 128,
+            "expected": 1.541
           },
           {
             "word": "그것",
-            "mi": 4.15,
+            "mi": 0.83,
             "co_freq": 5,
-            "word_freq": 234
+            "word_freq": 234,
+            "expected": 2.817
           },
           {
             "word": "있",
-            "mi": 3.61,
+            "mi": 0.29,
             "co_freq": 7,
-            "word_freq": 475
+            "word_freq": 475,
+            "expected": 5.719
           },
           {
             "word": "시",
-            "mi": 3.48,
+            "mi": 0.16,
             "co_freq": 6,
-            "word_freq": 447
+            "word_freq": 447,
+            "expected": 5.382
           },
           {
             "word": "것",
-            "mi": 3.33,
+            "mi": 0.01,
             "co_freq": 8,
-            "word_freq": 661
+            "word_freq": 661,
+            "expected": 7.958
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "박용철": {
         "display_name": "박용철",
@@ -1795,12 +1812,13 @@
         "collocates": [
           {
             "word": "것",
-            "mi": 4.39,
+            "mi": 1.06,
             "co_freq": 3,
-            "word_freq": 291
+            "word_freq": 291,
+            "expected": 1.435
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "임화": {
         "display_name": "임화",
@@ -1808,96 +1826,111 @@
         "collocates": [
           {
             "word": "편중",
-            "mi": 8.17,
+            "mi": 4.85,
             "co_freq": 4,
-            "word_freq": 6
+            "word_freq": 6,
+            "expected": 0.139
           },
           {
             "word": "형식",
-            "mi": 6.9,
+            "mi": 3.58,
             "co_freq": 15,
-            "word_freq": 54
+            "word_freq": 54,
+            "expected": 1.252
           },
           {
             "word": "결과",
-            "mi": 6.43,
+            "mi": 3.11,
             "co_freq": 4,
-            "word_freq": 20
+            "word_freq": 20,
+            "expected": 0.464
           },
           {
             "word": "일정",
-            "mi": 6.43,
+            "mi": 3.11,
             "co_freq": 3,
-            "word_freq": 15
+            "word_freq": 15,
+            "expected": 0.348
           },
           {
             "word": "양자",
-            "mi": 6.02,
+            "mi": 2.69,
             "co_freq": 3,
-            "word_freq": 20
+            "word_freq": 20,
+            "expected": 0.464
           },
           {
             "word": "기교",
-            "mi": 5.83,
+            "mi": 2.51,
             "co_freq": 7,
-            "word_freq": 53
+            "word_freq": 53,
+            "expected": 1.229
           },
           {
             "word": "곧",
-            "mi": 5.71,
+            "mi": 2.39,
             "co_freq": 4,
-            "word_freq": 33
+            "word_freq": 33,
+            "expected": 0.765
           },
           {
             "word": "사상",
-            "mi": 5.34,
+            "mi": 2.02,
             "co_freq": 6,
-            "word_freq": 64
+            "word_freq": 64,
+            "expected": 1.484
           },
           {
             "word": "통일",
-            "mi": 5.34,
+            "mi": 2.02,
             "co_freq": 3,
-            "word_freq": 32
+            "word_freq": 32,
+            "expected": 0.742
           },
           {
             "word": "부르",
-            "mi": 5.29,
+            "mi": 1.97,
             "co_freq": 3,
-            "word_freq": 33
+            "word_freq": 33,
+            "expected": 0.765
           },
           {
             "word": "의하",
-            "mi": 5.09,
+            "mi": 1.77,
             "co_freq": 6,
-            "word_freq": 76
+            "word_freq": 76,
+            "expected": 1.763
           },
           {
             "word": "의미",
-            "mi": 5.03,
+            "mi": 1.71,
             "co_freq": 5,
-            "word_freq": 66
+            "word_freq": 66,
+            "expected": 1.531
           },
           {
             "word": "언어",
-            "mi": 4.91,
+            "mi": 1.58,
             "co_freq": 13,
-            "word_freq": 187
+            "word_freq": 187,
+            "expected": 4.337
           },
           {
             "word": "물론",
-            "mi": 4.72,
+            "mi": 1.4,
             "co_freq": 3,
-            "word_freq": 49
+            "word_freq": 49,
+            "expected": 1.137
           },
           {
             "word": "시",
-            "mi": 4.69,
+            "mi": 1.37,
             "co_freq": 23,
-            "word_freq": 384
+            "word_freq": 384,
+            "expected": 8.907
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       }
     },
     "영감": {
@@ -1907,12 +1940,13 @@
         "collocates": [
           {
             "word": "말",
-            "mi": 6.43,
+            "mi": 3.11,
             "co_freq": 3,
-            "word_freq": 159
+            "word_freq": 159,
+            "expected": 0.348
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "박용철": {
         "display_name": "박용철",
@@ -1920,18 +1954,19 @@
         "collocates": [
           {
             "word": "이",
-            "mi": 5.73,
+            "mi": 2.4,
             "co_freq": 3,
-            "word_freq": 92
+            "word_freq": 92,
+            "expected": 0.567
           }
         ],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       },
       "임화": {
         "display_name": "임화",
         "target_freq": 1,
         "collocates": [],
-        "note": "MI 결과는 KWIC 정성 검증과 함께 해석할 것"
+        "note": "윈도±5(span=10) 정규화 MI; co_freq 병기"
       }
     }
   },
@@ -1941,28 +1976,28 @@
       "total_eojeols": 18783,
       "categories": {
         "대조": {
-          "count": 75,
-          "nf": 3.99,
+          "count": 69,
+          "nf": 3.67,
           "marker_detail": {
             "그러나": 54,
             "하지만": 1,
             "그렇지만": 4,
             "그래도": 1,
             "도리어": 3,
-            "오히려": 6,
-            "그렇다고": 6
+            "오히려": 6
           }
         },
         "원인-결과": {
-          "count": 96,
-          "nf": 5.11,
+          "count": 103,
+          "nf": 5.48,
           "marker_detail": {
             "따라서": 15,
             "그러므로": 18,
             "그래서": 48,
             "그러니까": 3,
+            "그리하여": 11,
             "왜냐하면": 1,
-            "그리하여": 11
+            "때문에": 7
           }
         },
         "첨가": {
@@ -1974,19 +2009,19 @@
             "아울러": 2,
             "나아가": 10,
             "한편": 3,
-            "뿐만 아니라": 1,
-            "더욱이": 1
+            "더욱이": 1,
+            "뿐만 아니라": 1
           }
         },
         "예시·환언": {
           "count": 43,
           "nf": 2.29,
           "marker_detail": {
+            "이른바": 5,
+            "즉": 28,
             "예를 들면": 7,
             "말하자면": 1,
-            "바꾸어 말하면": 2,
-            "이른바": 5,
-            "즉": 28
+            "바꾸어 말하면": 2
           }
         },
         "요약·결론": {
@@ -2012,30 +2047,33 @@
           }
         },
         "원인-결과": {
-          "count": 13,
-          "nf": 2.26,
+          "count": 14,
+          "nf": 2.43,
           "marker_detail": {
             "그러므로": 11,
             "그래서": 1,
-            "그리하여": 1
+            "그리하여": 1,
+            "때문에": 1
           }
         },
         "첨가": {
-          "count": 35,
-          "nf": 6.08,
+          "count": 36,
+          "nf": 6.26,
           "marker_detail": {
             "또한": 1,
             "또": 26,
             "나아가": 4,
             "한편": 2,
-            "더욱이": 2
+            "더욱이": 2,
+            "뿐만 아니라": 1
           }
         },
         "예시·환언": {
-          "count": 4,
-          "nf": 0.7,
+          "count": 5,
+          "nf": 0.87,
           "marker_detail": {
-            "즉": 4
+            "즉": 4,
+            "예를 들어": 1
           }
         },
         "요약·결론": {
@@ -2052,25 +2090,25 @@
       "total_eojeols": 26883,
       "categories": {
         "대조": {
-          "count": 173,
-          "nf": 6.44,
+          "count": 169,
+          "nf": 6.29,
           "marker_detail": {
             "그러나": 152,
-            "그렇지만": 2,
+            "그렇지만": 1,
             "그래도": 3,
-            "오히려": 13,
-            "그렇다고": 3
+            "오히려": 13
           }
         },
         "원인-결과": {
-          "count": 134,
-          "nf": 4.98,
+          "count": 171,
+          "nf": 6.36,
           "marker_detail": {
             "따라서": 20,
-            "그러므로": 92,
+            "그러므로": 90,
             "그래서": 1,
+            "그리하여": 20,
             "왜냐하면": 1,
-            "그리하여": 20
+            "때문에": 39
           }
         },
         "첨가": {
@@ -2082,28 +2120,29 @@
             "아울러": 4,
             "나아가": 5,
             "한편": 6,
-            "뿐만 아니라": 29,
-            "더욱이": 6
+            "더욱이": 6,
+            "뿐만 아니라": 29
           }
         },
         "예시·환언": {
           "count": 72,
           "nf": 2.68,
           "marker_detail": {
+            "이른바": 2,
+            "즉": 62,
             "예를 들면": 4,
             "말하자면": 1,
-            "바꾸어 말하면": 3,
-            "이른바": 2,
-            "즉": 62
+            "바꾸어 말하면": 3
           }
         },
         "요약·결론": {
-          "count": 19,
-          "nf": 0.71,
+          "count": 20,
+          "nf": 0.74,
           "marker_detail": {
             "요컨대": 10,
             "결국": 8,
-            "요약하면": 1
+            "요약하면": 1,
+            "한 마디로": 1
           }
         }
       }
@@ -2112,20 +2151,21 @@
   "bhr": {
     "김기림": {
       "display_name": "김기림",
-      "booster_count": 36,
-      "hedge_count": 38,
-      "booster_nf": 1.92,
-      "hedge_nf": 2.02,
-      "bhr": 0.95,
-      "interpretation": "균형 (약한 유보)",
+      "booster_count": 60,
+      "hedge_count": 142,
+      "booster_nf": 3.19,
+      "hedge_nf": 7.56,
+      "bhr": 0.422,
+      "interpretation": "유보적·신중한 자세",
       "booster_detail": {
         "분명히": 4,
         "확실히": 6,
         "반드시": 9,
+        "결코": 22,
         "명백히": 1,
-        "명백하게": 1,
         "실로": 13,
-        "필연적으로": 2
+        "틀림없다": 4,
+        "명백하게": 1
       },
       "hedge_detail": {
         "아마도": 4,
@@ -2133,89 +2173,97 @@
         "대체로": 11,
         "다소": 2,
         "대개": 2,
-        "일 수도": 2,
-        "지 모른다": 6,
-        "인 것 같": 2,
-        "는 것 같": 6,
-        "한 듯": 1
+        "것 같다": 19,
+        "듯(하다/이)": 5,
+        "ㄹ 수 있다": 67,
+        "셈이다": 1,
+        "ㄹ지 모르다": 26,
+        "으로 보이다": 3
       },
       "genre_bhr": {
         "신문연재": {
           "texts": 8,
           "eojeols": 13259,
-          "booster_nf": 1.96,
-          "hedge_nf": 2.56,
-          "bhr": 0.766,
-          "interpretation": "균형 (약한 유보)"
+          "booster_nf": 3.17,
+          "hedge_nf": 8.3,
+          "bhr": 0.382,
+          "interpretation": "유보적·신중한 자세"
         },
         "잡지평론": {
           "texts": 4,
           "eojeols": 5524,
-          "booster_nf": 1.81,
-          "hedge_nf": 0.72,
-          "bhr": 2.514,
-          "interpretation": "단언적·확신적 자세"
+          "booster_nf": 3.26,
+          "hedge_nf": 5.79,
+          "bhr": 0.563,
+          "interpretation": "유보적·신중한 자세"
         }
       },
-      "note": "BHR은 장르(신문연재/잡지평론) 혼합 영향 있음 — genre_bhr 참고"
+      "note": "강조·완화 모두 어휘+구문 패턴으로 대칭 집계."
     },
     "박용철": {
       "display_name": "박용철",
-      "booster_count": 18,
-      "hedge_count": 6,
-      "booster_nf": 3.13,
-      "hedge_nf": 1.04,
-      "bhr": 3.01,
-      "interpretation": "단언적·확신적 자세",
+      "booster_count": 23,
+      "hedge_count": 85,
+      "booster_nf": 4.0,
+      "hedge_nf": 14.77,
+      "bhr": 0.271,
+      "interpretation": "유보적·신중한 자세",
       "booster_detail": {
         "분명히": 1,
         "반드시": 3,
+        "결코": 4,
         "진실로": 4,
         "참으로": 3,
-        "실로": 7
+        "실로": 7,
+        "틀림없다": 1
       },
       "hedge_detail": {
         "아마": 3,
         "혹시": 2,
-        "대체로": 1
+        "대체로": 1,
+        "것 같다": 15,
+        "듯(하다/이)": 7,
+        "ㄹ 수 있다": 49,
+        "ㄹ지 모르다": 8
       },
       "genre_bhr": {
         "신문연재": {
           "texts": 4,
           "eojeols": 3949,
-          "booster_nf": 3.29,
-          "hedge_nf": 1.01,
-          "bhr": 3.257,
-          "interpretation": "단언적·확신적 자세"
+          "booster_nf": 4.56,
+          "hedge_nf": 16.71,
+          "bhr": 0.273,
+          "interpretation": "유보적·신중한 자세"
         },
         "잡지평론": {
           "texts": 2,
           "eojeols": 1805,
           "booster_nf": 2.77,
-          "hedge_nf": 1.11,
-          "bhr": 2.495,
-          "interpretation": "단언적·확신적 자세"
+          "hedge_nf": 10.53,
+          "bhr": 0.263,
+          "interpretation": "유보적·신중한 자세"
         }
       },
-      "note": "BHR은 장르(신문연재/잡지평론) 혼합 영향 있음 — genre_bhr 참고"
+      "note": "강조·완화 모두 어휘+구문 패턴으로 대칭 집계."
     },
     "임화": {
       "display_name": "임화",
-      "booster_count": 48,
-      "hedge_count": 22,
-      "booster_nf": 1.79,
-      "hedge_nf": 0.82,
-      "bhr": 2.183,
-      "interpretation": "단언적·확신적 자세",
+      "booster_count": 80,
+      "hedge_count": 206,
+      "booster_nf": 2.98,
+      "hedge_nf": 7.66,
+      "bhr": 0.389,
+      "interpretation": "유보적·신중한 자세",
       "booster_detail": {
         "분명히": 11,
         "확실히": 1,
         "반드시": 6,
+        "결코": 38,
         "명백히": 5,
         "진실로": 7,
         "참으로": 1,
         "실로": 10,
-        "필연적으로": 7
+        "틀림없다": 1
       },
       "hedge_detail": {
         "아마도": 3,
@@ -2223,29 +2271,33 @@
         "대체로": 2,
         "비교적": 1,
         "대개": 6,
-        "로 보인다": 2,
-        "인 것 같": 1,
-        "는 것 같": 2
+        "것 같다": 22,
+        "듯(하다/이)": 9,
+        "ㄹ 수 있다": 142,
+        "셈이다": 2,
+        "ㄹ지 모르다": 12,
+        "으로 보이다": 1,
+        "로 보이다": 1
       },
       "genre_bhr": {
         "잡지평론": {
           "texts": 7,
           "eojeols": 17946,
-          "booster_nf": 1.06,
-          "hedge_nf": 0.78,
-          "bhr": 1.359,
-          "interpretation": "약한 단언적 자세"
+          "booster_nf": 2.28,
+          "hedge_nf": 7.97,
+          "bhr": 0.286,
+          "interpretation": "유보적·신중한 자세"
         },
         "신문연재": {
           "texts": 4,
           "eojeols": 8937,
-          "booster_nf": 3.24,
-          "hedge_nf": 0.9,
-          "bhr": 3.6,
-          "interpretation": "단언적·확신적 자세"
+          "booster_nf": 4.36,
+          "hedge_nf": 7.05,
+          "bhr": 0.618,
+          "interpretation": "유보적·신중한 자세"
         }
       },
-      "note": "BHR은 장르(신문연재/잡지평론) 혼합 영향 있음 — genre_bhr 참고"
+      "note": "강조·완화 모두 어휘+구문 패턴으로 대칭 집계."
     }
   },
   "term_trajectory": {
@@ -2256,6 +2308,7 @@
           "eojeols": 3904,
           "text_count": 1,
           "flag": "[단일텍스트]",
+          "date_range": "~1932",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.26,
@@ -2268,13 +2321,13 @@
             "낭만": 0.0,
             "리얼리즘": 1.02,
             "방법": 0.26
-          },
-          "date_range": "~1932"
+          }
         },
         "전사": {
           "eojeols": 5530,
           "text_count": 5,
           "flag": "",
+          "date_range": "1933~1934",
           "term_nfs": {
             "기교": 0.36,
             "기술": 1.45,
@@ -2287,13 +2340,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.54,
             "방법": 0.72
-          },
-          "date_range": "1933~1934"
+          }
         },
         "발단": {
           "eojeols": 5326,
           "text_count": 3,
           "flag": "",
+          "date_range": "1935.2~1935.11",
           "term_nfs": {
             "기교": 0.38,
             "기술": 2.25,
@@ -2306,13 +2359,13 @@
             "낭만": 0.0,
             "리얼리즘": 1.13,
             "방법": 1.13
-          },
-          "date_range": "1935.2~1935.11"
+          }
         },
         "전개": {
           "eojeols": 811,
           "text_count": 1,
           "flag": "[단일텍스트]",
+          "date_range": "1935.12~1936.3",
           "term_nfs": {
             "기교": 8.63,
             "기술": 0.0,
@@ -2325,13 +2378,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "1935.12~1936.3"
+          }
         },
         "여파": {
           "eojeols": 1760,
           "text_count": 1,
           "flag": "[단일텍스트]",
+          "date_range": "1936.4~1937",
           "term_nfs": {
             "기교": 0.0,
             "기술": 1.14,
@@ -2344,13 +2397,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 5.11
-          },
-          "date_range": "1936.4~1937"
+          }
         },
         "범위밖": {
           "eojeols": 1452,
           "text_count": 1,
           "flag": "[단일텍스트]",
+          "date_range": "1939~",
           "term_nfs": {
             "기교": 0.69,
             "기술": 0.0,
@@ -2363,8 +2416,7 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "1939~"
+          }
         }
       }
     },
@@ -2375,6 +2427,7 @@
           "eojeols": 1824,
           "text_count": 3,
           "flag": "",
+          "date_range": "~1932",
           "term_nfs": {
             "기교": 1.1,
             "기술": 2.74,
@@ -2387,13 +2440,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 1.1
-          },
-          "date_range": "~1932"
+          }
         },
         "전사": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
+          "date_range": "1933~1934",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.0,
@@ -2406,13 +2459,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "1933~1934"
+          }
         },
         "발단": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
+          "date_range": "1935.2~1935.11",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.0,
@@ -2425,13 +2478,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "1935.2~1935.11"
+          }
         },
         "전개": {
           "eojeols": 3081,
           "text_count": 2,
           "flag": "",
+          "date_range": "1935.12~1936.3",
           "term_nfs": {
             "기교": 5.19,
             "기술": 5.84,
@@ -2444,13 +2497,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.97,
             "방법": 1.3
-          },
-          "date_range": "1935.12~1936.3"
+          }
         },
         "여파": {
           "eojeols": 849,
           "text_count": 1,
           "flag": "[단일텍스트]",
+          "date_range": "1936.4~1937",
           "term_nfs": {
             "기교": 0.0,
             "기술": 3.53,
@@ -2463,13 +2516,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "1936.4~1937"
+          }
         },
         "범위밖": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
+          "date_range": "1939~",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.0,
@@ -2482,8 +2535,7 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "1939~"
+          }
         }
       }
     },
@@ -2494,6 +2546,7 @@
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
+          "date_range": "~1932",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.0,
@@ -2506,13 +2559,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "~1932"
+          }
         },
         "전사": {
           "eojeols": 10489,
           "text_count": 4,
           "flag": "",
+          "date_range": "1933~1934",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.1,
@@ -2525,13 +2578,13 @@
             "낭만": 2.67,
             "리얼리즘": 1.62,
             "방법": 0.86
-          },
-          "date_range": "1933~1934"
+          }
         },
         "발단": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
+          "date_range": "1935.2~1935.11",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.0,
@@ -2544,13 +2597,13 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "1935.2~1935.11"
+          }
         },
         "전개": {
           "eojeols": 11430,
           "text_count": 4,
           "flag": "",
+          "date_range": "1935.12~1936.3",
           "term_nfs": {
             "기교": 4.64,
             "기술": 0.35,
@@ -2563,13 +2616,13 @@
             "낭만": 0.96,
             "리얼리즘": 0.52,
             "방법": 0.52
-          },
-          "date_range": "1935.12~1936.3"
+          }
         },
         "여파": {
           "eojeols": 4964,
           "text_count": 3,
           "flag": "",
+          "date_range": "1936.4~1937",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.4,
@@ -2582,13 +2635,13 @@
             "낭만": 0.6,
             "리얼리즘": 17.32,
             "방법": 1.61
-          },
-          "date_range": "1936.4~1937"
+          }
         },
         "범위밖": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
+          "date_range": "1939~",
           "term_nfs": {
             "기교": 0.0,
             "기술": 0.0,
@@ -2601,8 +2654,7 @@
             "낭만": 0.0,
             "리얼리즘": 0.0,
             "방법": 0.0
-          },
-          "date_range": "1939~"
+          }
         }
       }
     }
@@ -2615,54 +2667,54 @@
           "eojeols": 3904,
           "text_count": 1,
           "flag": "[단일텍스트]",
-          "booster_nf": 2.05,
-          "hedge_nf": 1.54,
-          "bhr": 1.331,
-          "interpretation": "약한 단언적 자세"
+          "booster_nf": 3.59,
+          "hedge_nf": 5.89,
+          "bhr": 0.61,
+          "interpretation": "유보적·신중한 자세"
         },
         "전사": {
           "eojeols": 5530,
           "text_count": 5,
           "flag": "",
-          "booster_nf": 1.27,
-          "hedge_nf": 1.45,
-          "bhr": 0.876,
-          "interpretation": "균형 (약한 유보)"
+          "booster_nf": 2.89,
+          "hedge_nf": 6.87,
+          "bhr": 0.421,
+          "interpretation": "유보적·신중한 자세"
         },
         "발단": {
           "eojeols": 5326,
           "text_count": 3,
           "flag": "",
-          "booster_nf": 2.44,
-          "hedge_nf": 2.82,
-          "bhr": 0.865,
-          "interpretation": "균형 (약한 유보)"
+          "booster_nf": 2.82,
+          "hedge_nf": 9.39,
+          "bhr": 0.3,
+          "interpretation": "유보적·신중한 자세"
         },
         "전개": {
           "eojeols": 811,
           "text_count": 1,
           "flag": "[단일텍스트]",
-          "booster_nf": 0.0,
-          "hedge_nf": 0.0,
-          "bhr": null,
-          "interpretation": "완화 표지 0 — BHR 계산 불가"
+          "booster_nf": 1.23,
+          "hedge_nf": 9.86,
+          "bhr": 0.125,
+          "interpretation": "유보적·신중한 자세"
         },
         "여파": {
           "eojeols": 1760,
           "text_count": 1,
           "flag": "[단일텍스트]",
-          "booster_nf": 2.27,
-          "hedge_nf": 4.55,
-          "bhr": 0.499,
+          "booster_nf": 4.55,
+          "hedge_nf": 10.8,
+          "bhr": 0.421,
           "interpretation": "유보적·신중한 자세"
         },
         "범위밖": {
           "eojeols": 1452,
           "text_count": 1,
           "flag": "[단일텍스트]",
-          "booster_nf": 2.75,
-          "hedge_nf": 0.69,
-          "bhr": 3.986,
+          "booster_nf": 4.13,
+          "hedge_nf": 2.75,
+          "bhr": 1.502,
           "interpretation": "단언적·확신적 자세"
         }
       }
@@ -2675,54 +2727,45 @@
           "text_count": 3,
           "flag": "",
           "booster_nf": 2.19,
-          "hedge_nf": 0.0,
-          "bhr": null,
-          "interpretation": "완화 표지 0 — BHR 계산 불가"
+          "hedge_nf": 14.25,
+          "bhr": 0.154,
+          "interpretation": "유보적·신중한 자세"
         },
         "전사": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "booster_nf": 0.0,
-          "hedge_nf": 0.0,
-          "bhr": null,
-          "interpretation": "완화 표지 0 — BHR 계산 불가"
+          "bhr": null
         },
         "발단": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "booster_nf": 0.0,
-          "hedge_nf": 0.0,
-          "bhr": null,
-          "interpretation": "완화 표지 0 — BHR 계산 불가"
+          "bhr": null
         },
         "전개": {
           "eojeols": 3081,
           "text_count": 2,
           "flag": "",
-          "booster_nf": 3.57,
-          "hedge_nf": 1.3,
-          "bhr": 2.746,
-          "interpretation": "단언적·확신적 자세"
+          "booster_nf": 5.19,
+          "hedge_nf": 17.2,
+          "bhr": 0.302,
+          "interpretation": "유보적·신중한 자세"
         },
         "여파": {
           "eojeols": 849,
           "text_count": 1,
           "flag": "[단일텍스트]",
           "booster_nf": 3.53,
-          "hedge_nf": 2.36,
-          "bhr": 1.496,
-          "interpretation": "약한 단언적 자세"
+          "hedge_nf": 7.07,
+          "bhr": 0.499,
+          "interpretation": "유보적·신중한 자세"
         },
         "범위밖": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "booster_nf": 0.0,
-          "hedge_nf": 0.0,
-          "bhr": null,
-          "interpretation": "완화 표지 0 — BHR 계산 불가"
+          "bhr": null
         }
       }
     },
@@ -2733,55 +2776,46 @@
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "booster_nf": 0.0,
-          "hedge_nf": 0.0,
-          "bhr": null,
-          "interpretation": "완화 표지 0 — BHR 계산 불가"
+          "bhr": null
         },
         "전사": {
           "eojeols": 10489,
           "text_count": 4,
           "flag": "",
-          "booster_nf": 1.43,
-          "hedge_nf": 0.86,
-          "bhr": 1.663,
-          "interpretation": "단언적·확신적 자세"
+          "booster_nf": 2.29,
+          "hedge_nf": 6.96,
+          "bhr": 0.329,
+          "interpretation": "유보적·신중한 자세"
         },
         "발단": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "booster_nf": 0.0,
-          "hedge_nf": 0.0,
-          "bhr": null,
-          "interpretation": "완화 표지 0 — BHR 계산 불가"
+          "bhr": null
         },
         "전개": {
           "eojeols": 11430,
           "text_count": 4,
           "flag": "",
-          "booster_nf": 1.75,
-          "hedge_nf": 0.87,
-          "bhr": 2.011,
-          "interpretation": "단언적·확신적 자세"
+          "booster_nf": 3.24,
+          "hedge_nf": 7.26,
+          "bhr": 0.446,
+          "interpretation": "유보적·신중한 자세"
         },
         "여파": {
           "eojeols": 4964,
           "text_count": 3,
           "flag": "",
-          "booster_nf": 2.62,
-          "hedge_nf": 0.6,
-          "bhr": 4.367,
-          "interpretation": "단언적·확신적 자세"
+          "booster_nf": 3.83,
+          "hedge_nf": 10.07,
+          "bhr": 0.38,
+          "interpretation": "유보적·신중한 자세"
         },
         "범위밖": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "booster_nf": 0.0,
-          "hedge_nf": 0.0,
-          "bhr": null,
-          "interpretation": "완화 표지 0 — BHR 계산 불가"
+          "bhr": null
         }
       }
     }
@@ -2800,8 +2834,8 @@
               "nf": 4.35
             },
             "원인-결과": {
-              "count": 21,
-              "nf": 5.38
+              "count": 22,
+              "nf": 5.64
             },
             "첨가": {
               "count": 11,
@@ -2823,12 +2857,12 @@
           "flag": "",
           "categories": {
             "대조": {
-              "count": 17,
-              "nf": 3.07
+              "count": 15,
+              "nf": 2.71
             },
             "원인-결과": {
-              "count": 30,
-              "nf": 5.42
+              "count": 33,
+              "nf": 5.97
             },
             "첨가": {
               "count": 34,
@@ -2850,12 +2884,12 @@
           "flag": "",
           "categories": {
             "대조": {
-              "count": 22,
-              "nf": 4.13
+              "count": 19,
+              "nf": 3.57
             },
             "원인-결과": {
-              "count": 32,
-              "nf": 6.01
+              "count": 35,
+              "nf": 6.57
             },
             "첨가": {
               "count": 27,
@@ -2877,8 +2911,8 @@
           "flag": "[단일텍스트]",
           "categories": {
             "대조": {
-              "count": 6,
-              "nf": 7.4
+              "count": 5,
+              "nf": 6.17
             },
             "원인-결과": {
               "count": 2,
@@ -2971,12 +3005,12 @@
               "nf": 1.64
             },
             "첨가": {
-              "count": 6,
-              "nf": 3.29
+              "count": 7,
+              "nf": 3.84
             },
             "예시·환언": {
-              "count": 2,
-              "nf": 1.1
+              "count": 3,
+              "nf": 1.64
             },
             "요약·결론": {
               "count": 0,
@@ -2988,55 +3022,13 @@
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "categories": {
-            "대조": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "원인-결과": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "첨가": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "예시·환언": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "요약·결론": {
-              "count": 0,
-              "nf": 0.0
-            }
-          }
+          "categories": {}
         },
         "발단": {
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "categories": {
-            "대조": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "원인-결과": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "첨가": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "예시·환언": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "요약·결론": {
-              "count": 0,
-              "nf": 0.0
-            }
-          }
+          "categories": {}
         },
         "전개": {
           "eojeols": 3081,
@@ -3048,8 +3040,8 @@
               "nf": 9.41
             },
             "원인-결과": {
-              "count": 10,
-              "nf": 3.25
+              "count": 11,
+              "nf": 3.57
             },
             "첨가": {
               "count": 25,
@@ -3096,28 +3088,7 @@
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "categories": {
-            "대조": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "원인-결과": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "첨가": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "예시·환언": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "요약·결론": {
-              "count": 0,
-              "nf": 0.0
-            }
-          }
+          "categories": {}
         }
       }
     },
@@ -3128,28 +3099,7 @@
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "categories": {
-            "대조": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "원인-결과": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "첨가": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "예시·환언": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "요약·결론": {
-              "count": 0,
-              "nf": 0.0
-            }
-          }
+          "categories": {}
         },
         "전사": {
           "eojeols": 10489,
@@ -3157,12 +3107,12 @@
           "flag": "",
           "categories": {
             "대조": {
-              "count": 68,
-              "nf": 6.48
+              "count": 66,
+              "nf": 6.29
             },
             "원인-결과": {
-              "count": 52,
-              "nf": 4.96
+              "count": 66,
+              "nf": 6.29
             },
             "첨가": {
               "count": 72,
@@ -3173,8 +3123,8 @@
               "nf": 2.86
             },
             "요약·결론": {
-              "count": 9,
-              "nf": 0.86
+              "count": 10,
+              "nf": 0.95
             }
           }
         },
@@ -3182,28 +3132,7 @@
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "categories": {
-            "대조": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "원인-결과": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "첨가": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "예시·환언": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "요약·결론": {
-              "count": 0,
-              "nf": 0.0
-            }
-          }
+          "categories": {}
         },
         "전개": {
           "eojeols": 11430,
@@ -3211,12 +3140,12 @@
           "flag": "",
           "categories": {
             "대조": {
-              "count": 75,
-              "nf": 6.56
+              "count": 74,
+              "nf": 6.47
             },
             "원인-결과": {
-              "count": 60,
-              "nf": 5.25
+              "count": 77,
+              "nf": 6.74
             },
             "첨가": {
               "count": 72,
@@ -3238,12 +3167,12 @@
           "flag": "",
           "categories": {
             "대조": {
-              "count": 30,
-              "nf": 6.04
+              "count": 29,
+              "nf": 5.84
             },
             "원인-결과": {
-              "count": 22,
-              "nf": 4.43
+              "count": 28,
+              "nf": 5.64
             },
             "첨가": {
               "count": 30,
@@ -3263,28 +3192,7 @@
           "eojeols": 0,
           "text_count": 0,
           "flag": "[없음]",
-          "categories": {
-            "대조": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "원인-결과": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "첨가": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "예시·환언": {
-              "count": 0,
-              "nf": 0.0
-            },
-            "요약·결론": {
-              "count": 0,
-              "nf": 0.0
-            }
-          }
+          "categories": {}
         }
       }
     }
@@ -3438,6 +3346,39 @@
             "방법": 0.85
           }
         }
+      }
+    }
+  },
+  "tokenizer_coverage": {
+    "subword_model_loaded": true,
+    "subword_model_path": "tokenizer/241112_vo32000_tokenizer.json",
+    "critics": {
+      "김기림": {
+        "display_name": "김기림",
+        "kiwi_total_morphs": 40508,
+        "kiwi_hanja_ratio": 0.0,
+        "kiwi_diag_token_ratio": 0.0018,
+        "subword_unk_rate": 0.0001,
+        "subword_token_count": 46924,
+        "subword_decomposition_ratio": 1.158
+      },
+      "박용철": {
+        "display_name": "박용철",
+        "kiwi_total_morphs": 17478,
+        "kiwi_hanja_ratio": 0.0001,
+        "kiwi_diag_token_ratio": 0.0011,
+        "subword_unk_rate": 0.0004,
+        "subword_token_count": 19946,
+        "subword_decomposition_ratio": 1.141
+      },
+      "임화": {
+        "display_name": "임화",
+        "kiwi_total_morphs": 59659,
+        "kiwi_hanja_ratio": 0.0001,
+        "kiwi_diag_token_ratio": 0.0009,
+        "subword_unk_rate": 0.0001,
+        "subword_token_count": 68941,
+        "subword_decomposition_ratio": 1.156
       }
     }
   }
