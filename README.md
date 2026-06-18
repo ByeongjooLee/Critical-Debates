@@ -179,6 +179,8 @@ python run_all.py --corpus ../.. --output ../../output
 # → output/report.txt · output/results.json 생성
 ```
 
+> 설치·실행·표 재현·다른 코퍼스 적용 등 분석 패키지 상세 사용법은 [`gigyo_analysis_package/gigyo_release/README.md`](gigyo_analysis_package/gigyo_release/README.md) 참고.
+
 ---
 
 ## 참고문헌
