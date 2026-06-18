@@ -4,22 +4,57 @@
 
 사용:  python build_html_report.py --results ../../output/results.json --out ../../output/analysis_report.html
 """
-import argparse, json, sys, html
+import argparse, json, re, sys, html
 from pathlib import Path
 
 CRITIC_ORDER = ["김기림", "임화", "박용철"]
 CRITIC_COLOR = {"김기림": "#2563eb", "임화": "#dc2626", "박용철": "#059669"}
 PERIODS_ACTIVE = ["전사이전", "전사", "발단", "전개", "여파"]
 
+# KWIC용 표지 정규식 (표면형) — BHR 강조/완화 핵심 표지
+KWIC_BOOSTERS = [
+    ("물론", r"물론"), ("결코", r"결코"), ("반드시", r"반드시"),
+    ("분명히/하-", r"분명[히하]"), ("무엇보다", r"무엇보다"),
+    ("-지 않을 수 없-", r"지\s*않을\s*수\s*없"), ("-수밖에 없-", r"수밖에\s*없"),
+]
+KWIC_HEDGES = [
+    ("-ㄹ 수 있-", r"[가-힣]\s*수\s*(?:가|도|는)?\s*있"), ("것 같-", r"것\s*같"),
+    ("-듯하-", r"듯\s*[하이]"), ("-ㄹ지 모르-", r"지\s*모르"),
+    ("-게 되-", r"게\s*되"), ("-으로 보이-", r"으로\s*보이"),
+]
+
 
 def esc(x):
     return html.escape(str(x))
+
+
+def kwic_samples(flat, markers, win=26, per_marker=2, cap=8):
+    """표면 정규식으로 KWIC 추출 (라벨, 강조표시 HTML) 리스트."""
+    out, seen = [], set()
+    for label, rx in markers:
+        n = 0
+        for m in re.finditer(rx, flat):
+            if n >= per_marker:
+                break
+            s, e = max(0, m.start() - win), min(len(flat), m.end() + win)
+            key = flat[s:e]
+            if key in seen:
+                continue
+            seen.add(key)
+            ctx = (esc(flat[s:m.start()]) + "<mark>" + esc(m.group(0))
+                   + "</mark>" + esc(flat[m.end():e]))
+            out.append((label, "…" + ctx + "…"))
+            n += 1
+        if len(out) >= cap:
+            break
+    return out[:cap]
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", default="../../output/results.json")
     ap.add_argument("--out", default="../../output/analysis_report.html")
+    ap.add_argument("--corpus", default="../..", help="KWIC용 코퍼스 폴더")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -62,6 +97,10 @@ tr:last-child td{border-bottom:none}
 .bar{height:8px;border-radius:4px;background:#e2e8f0;overflow:hidden;display:inline-block;width:120px;vertical-align:middle}
 .bar>span{display:block;height:100%}
 code{background:#f1f5f9;padding:1px 5px;border-radius:4px;font-size:13px}
+mark{background:#fde68a;padding:0 2px;border-radius:3px;font-weight:600}
+.kwic{font-size:13px;line-height:1.9;color:#334155;padding:4px 0;border-bottom:1px dashed var(--line)}
+.kwic:last-child{border:none}
+.kwic .lab{display:inline-block;min-width:96px;color:var(--mut);font-size:11.5px;font-weight:600}
 .foot{margin-top:50px;color:var(--mut);font-size:12.5px;border-top:1px solid var(--line);padding-top:16px}
 @media(max-width:760px){.cards{grid-template-columns:1fr}}
 </style></head><body><div class="wrap">""")
@@ -242,6 +281,26 @@ code{background:#f1f5f9;padding:1px 5px;border-radius:4px;font-size:13px}
                 f'<td class="num">{v.get("kiwi_hanja_ratio","—")}</td><td class="num">{v.get("subword_unk_rate","—")}</td>'
                 f'<td class="num">{v.get("subword_decomposition_ratio","—")}</td></tr>')
         add('</table>')
+
+    # ── 11. KWIC 용례 ────────────────────────────────────────
+    root = Path(a.corpus)
+    if root.is_dir():
+        add('<h2>11. KWIC 용례 — 강화·완충 표지 실제 문장</h2>')
+        add('<p class="desc">BHR 수치 뒤의 실제 어법. <mark>노란 강조</mark>가 탐지된 표지. '
+            '강조 표지는 비교적 명확하나, 완충의 <code>수 있-</code>·<code>게 되-</code>는 '
+            '가능성·문법적 용법이 섞일 수 있어 함께 살펴봄.</p>')
+        for c in CRITIC_ORDER:
+            cdir = root / c
+            if not cdir.is_dir():
+                continue
+            text = "\n".join(f.read_text(encoding="utf-8") for f in sorted(cdir.glob("*.txt")))
+            flat = re.sub(r"\s+", " ", text)
+            add(f'<h3>{critic_chip(c)} 강조(booster) 용례</h3>')
+            for lab, k in kwic_samples(flat, KWIC_BOOSTERS, per_marker=1, cap=6):
+                add(f'<div class="kwic"><span class="lab">{esc(lab)}</span>{k}</div>')
+            add(f'<h3>{critic_chip(c)} 완충(hedge) 용례</h3>')
+            for lab, k in kwic_samples(flat, KWIC_HEDGES, per_marker=2, cap=8):
+                add(f'<div class="kwic"><span class="lab">{esc(lab)}</span>{k}</div>')
 
     add('<div class="foot">생성: gigyo_release 파이프라인 · 데이터 출처 <code>output/results.json</code> · '
         'BHR 표지 사전: 홍혜란·박지순(2020)·정혜승(2012) 기준</div>')
