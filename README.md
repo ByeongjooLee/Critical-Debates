@@ -1,6 +1,7 @@
 # Critical-Debates: 문학비평 논쟁의 텍스트언어학적 재구성
 
-> 📊 **[상세 분석 리포트 (HTML)](index.html)** — LL 핵심어·NF·MI·BHR·접속표지·KWIC 용례를 한눈에. (GitHub Pages 활성화 시 웹페이지로 열람)
+> 📊 **[상세 분석 리포트 — 웹페이지로 열기](https://htmlpreview.github.io/?https://github.com/ByeongjooLee/Critical-Debates/blob/main/index.html)** — LL 핵심어·NF·MI·BHR·접속표지·KWIC 용례를 한눈에.
+> (GitHub은 `.html`을 소스 코드로 표시하므로, 렌더링하려면 위 미리보기 링크를 사용. Pages 활성화 시 `https://byeongjoolee.github.io/Critical-Debates/`로도 열람 가능)
 
 ## 연구 개요
 
