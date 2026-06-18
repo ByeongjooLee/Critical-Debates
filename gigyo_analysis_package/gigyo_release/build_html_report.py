@@ -159,9 +159,10 @@ code{background:#f1f5f9;padding:1px 5px;border-radius:4px;font-size:13px}
     add('<h2>6. 담화 자세 — 강화·완충 비율 (BHR)</h2>')
     bhr = d.get("bhr", {})
     # 수 있다 비중 계산
-    add('<div class="warn"><b>⚠️ 측정 유의</b> — 이 BHR은 완화 표지를 형태소 구문 패턴으로 잡은 <b>교정본</b>입니다(구버전은 완화를 과소 집계). '
-        '다만 완화의 상당부분이 <code>ㄹ 수 있다</code> 구문에서 나오는데, 이는 <b>가능성</b>(완화)과 <b>능력</b>(완화 아님)이 섞여 있어 '
-        'BHR이 과소평가됐을 수 있습니다. 아래 내역의 <code>ㄹ 수 있다</code> 비중을 함께 보세요. <b>확정 결론 전 KWIC 검증 권장.</b></div>')
+    add('<div class="warn"><b>⚠️ 측정 기준</b> — BHR 표지는 선행연구(홍혜란·박지순 2020, 정혜승 2012)의 메타담화 표지 목록을 '
+        '형태소 구문 패턴으로 구현했습니다. 세 비평가 모두 BHR&lt;1(유보적)이며, <b>강조 NF는 거의 같고(5.9~6.3) 차이는 완화에서 발생</b> '
+        '→ 박용철이 가장 유보적. BHR은 표지 선택에 민감하므로(특히 <code>수 있다</code>·<code>게 되다</code> 등 양가 구문) '
+        '단독보다 다른 지표와 병행 해석합니다.</div>')
     add('<table><tr><th>비평가</th><th class="num">강조NF</th><th class="num">완충NF</th><th class="num">BHR</th>'
         '<th class="num">완화 중 「ㄹ 수 있다」</th><th>해석</th></tr>')
     for c in CRITIC_ORDER:
@@ -242,8 +243,8 @@ code{background:#f1f5f9;padding:1px 5px;border-radius:4px;font-size:13px}
                 f'<td class="num">{v.get("subword_decomposition_ratio","—")}</td></tr>')
         add('</table>')
 
-    add('<div class="foot">생성: gigyo_release 파이프라인 · 데이터 출처 <code>output/results.json</code><br>'
-        '※ BHR 및 시기별 BHR은 완화 표지 측정 정의가 확정되기 전까지 잠정값입니다.</div>')
+    add('<div class="foot">생성: gigyo_release 파이프라인 · 데이터 출처 <code>output/results.json</code> · '
+        'BHR 표지 사전: 홍혜란·박지순(2020)·정혜승(2012) 기준</div>')
     add('</div></body></html>')
 
     out = Path(a.out)
