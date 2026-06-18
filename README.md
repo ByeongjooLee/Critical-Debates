@@ -39,7 +39,7 @@
 | 구분 | 도구 |
 |------|------|
 | 형태소 분석 | [Kiwi](https://github.com/bab2min/Kiwi) |
-| 근대어 서브워드 토크나이징 | [ModernKoreanSubword](https://github.com/bab2min/kiwipiepy) |
+| 근대어 서브워드 토크나이징 | [ModernKoreanSubword](https://github.com/ByungjunKim/ModernKoreanSubword) |
 | 분석 패키지 | Python 3 (`gigyo_analysis_package/gigyo_release/`) |
 | 출력 | `output/report.txt` |
 
