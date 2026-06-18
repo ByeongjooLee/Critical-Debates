@@ -2151,11 +2151,11 @@
   "bhr": {
     "김기림": {
       "display_name": "김기림",
-      "booster_count": 60,
-      "hedge_count": 142,
-      "booster_nf": 3.19,
-      "hedge_nf": 7.56,
-      "bhr": 0.422,
+      "booster_count": 113,
+      "hedge_count": 194,
+      "booster_nf": 6.02,
+      "hedge_nf": 10.33,
+      "bhr": 0.583,
       "interpretation": "유보적·신중한 자세",
       "booster_detail": {
         "분명히": 4,
@@ -2164,8 +2164,16 @@
         "결코": 22,
         "명백히": 1,
         "실로": 13,
+        "물론": 30,
+        "당연히": 2,
+        "특히": 4,
         "틀림없다": 4,
-        "명백하게": 1
+        "명백하게": 1,
+        "지 않을 수 없다": 3,
+        "ㄹ 수밖에 없다": 4,
+        "당연하다": 6,
+        "필수적이다": 1,
+        "무엇보다": 3
       },
       "hedge_detail": {
         "아마도": 4,
@@ -2178,23 +2186,29 @@
         "ㄹ 수 있다": 67,
         "셈이다": 1,
         "ㄹ지 모르다": 26,
-        "으로 보이다": 3
+        "으로 보이다": 3,
+        "게 되다": 22,
+        "기도 하다": 10,
+        "ㄹ 만하다": 5,
+        "기가 어렵다": 1,
+        "다고 보": 1,
+        "다고 생각": 13
       },
       "genre_bhr": {
         "신문연재": {
           "texts": 8,
           "eojeols": 13259,
-          "booster_nf": 3.17,
-          "hedge_nf": 8.3,
-          "bhr": 0.382,
+          "booster_nf": 6.11,
+          "hedge_nf": 10.63,
+          "bhr": 0.575,
           "interpretation": "유보적·신중한 자세"
         },
         "잡지평론": {
           "texts": 4,
           "eojeols": 5524,
-          "booster_nf": 3.26,
-          "hedge_nf": 5.79,
-          "bhr": 0.563,
+          "booster_nf": 5.79,
+          "hedge_nf": 9.59,
+          "bhr": 0.604,
           "interpretation": "유보적·신중한 자세"
         }
       },
@@ -2202,11 +2216,11 @@
     },
     "박용철": {
       "display_name": "박용철",
-      "booster_count": 23,
-      "hedge_count": 85,
-      "booster_nf": 4.0,
-      "hedge_nf": 14.77,
-      "bhr": 0.271,
+      "booster_count": 34,
+      "hedge_count": 115,
+      "booster_nf": 5.91,
+      "hedge_nf": 19.99,
+      "bhr": 0.296,
       "interpretation": "유보적·신중한 자세",
       "booster_detail": {
         "분명히": 1,
@@ -2215,7 +2229,11 @@
         "진실로": 4,
         "참으로": 3,
         "실로": 7,
-        "틀림없다": 1
+        "물론": 4,
+        "당연히": 4,
+        "특히": 2,
+        "틀림없다": 1,
+        "무엇보다": 1
       },
       "hedge_detail": {
         "아마": 3,
@@ -2224,23 +2242,27 @@
         "것 같다": 15,
         "듯(하다/이)": 7,
         "ㄹ 수 있다": 49,
-        "ㄹ지 모르다": 8
+        "ㄹ지 모르다": 8,
+        "게 되다": 14,
+        "기도 하다": 4,
+        "ㄹ 만하다": 5,
+        "기가 어렵다": 7
       },
       "genre_bhr": {
         "신문연재": {
           "texts": 4,
           "eojeols": 3949,
-          "booster_nf": 4.56,
-          "hedge_nf": 16.71,
-          "bhr": 0.273,
+          "booster_nf": 6.33,
+          "hedge_nf": 21.52,
+          "bhr": 0.294,
           "interpretation": "유보적·신중한 자세"
         },
         "잡지평론": {
           "texts": 2,
           "eojeols": 1805,
-          "booster_nf": 2.77,
-          "hedge_nf": 10.53,
-          "bhr": 0.263,
+          "booster_nf": 4.99,
+          "hedge_nf": 16.62,
+          "bhr": 0.3,
           "interpretation": "유보적·신중한 자세"
         }
       },
@@ -2248,11 +2270,11 @@
     },
     "임화": {
       "display_name": "임화",
-      "booster_count": 80,
-      "hedge_count": 206,
-      "booster_nf": 2.98,
-      "hedge_nf": 7.66,
-      "bhr": 0.389,
+      "booster_count": 168,
+      "hedge_count": 276,
+      "booster_nf": 6.25,
+      "hedge_nf": 10.27,
+      "bhr": 0.609,
       "interpretation": "유보적·신중한 자세",
       "booster_detail": {
         "분명히": 11,
@@ -2263,7 +2285,14 @@
         "진실로": 7,
         "참으로": 1,
         "실로": 10,
-        "틀림없다": 1
+        "물론": 49,
+        "당연히": 1,
+        "특히": 16,
+        "틀림없다": 1,
+        "지 않을 수 없다": 6,
+        "ㄹ 수밖에 없다": 2,
+        "당연하다": 1,
+        "무엇보다": 13
       },
       "hedge_detail": {
         "아마도": 3,
@@ -2277,23 +2306,30 @@
         "셈이다": 2,
         "ㄹ지 모르다": 12,
         "으로 보이다": 1,
-        "로 보이다": 1
+        "로 보이다": 1,
+        "게 되다": 43,
+        "기도 하다": 5,
+        "ㄹ 만하다": 3,
+        "기가 어렵다": 10,
+        "다고 보": 1,
+        "다고 생각": 7,
+        "경우에 따라": 1
       },
       "genre_bhr": {
         "잡지평론": {
           "texts": 7,
           "eojeols": 17946,
-          "booster_nf": 2.28,
-          "hedge_nf": 7.97,
-          "bhr": 0.286,
+          "booster_nf": 5.91,
+          "hedge_nf": 10.42,
+          "bhr": 0.567,
           "interpretation": "유보적·신중한 자세"
         },
         "신문연재": {
           "texts": 4,
           "eojeols": 8937,
-          "booster_nf": 4.36,
-          "hedge_nf": 7.05,
-          "bhr": 0.618,
+          "booster_nf": 6.94,
+          "hedge_nf": 9.96,
+          "bhr": 0.697,
           "interpretation": "유보적·신중한 자세"
         }
       },
@@ -2667,54 +2703,54 @@
           "eojeols": 3904,
           "text_count": 1,
           "flag": "[단일텍스트]",
-          "booster_nf": 3.59,
-          "hedge_nf": 5.89,
-          "bhr": 0.61,
+          "booster_nf": 5.89,
+          "hedge_nf": 9.22,
+          "bhr": 0.639,
           "interpretation": "유보적·신중한 자세"
         },
         "전사": {
           "eojeols": 5530,
           "text_count": 5,
           "flag": "",
-          "booster_nf": 2.89,
-          "hedge_nf": 6.87,
-          "bhr": 0.421,
+          "booster_nf": 5.97,
+          "hedge_nf": 10.13,
+          "bhr": 0.589,
           "interpretation": "유보적·신중한 자세"
         },
         "발단": {
           "eojeols": 5326,
           "text_count": 3,
           "flag": "",
-          "booster_nf": 2.82,
-          "hedge_nf": 9.39,
-          "bhr": 0.3,
+          "booster_nf": 4.88,
+          "hedge_nf": 12.2,
+          "bhr": 0.4,
           "interpretation": "유보적·신중한 자세"
         },
         "전개": {
           "eojeols": 811,
           "text_count": 1,
           "flag": "[단일텍스트]",
-          "booster_nf": 1.23,
-          "hedge_nf": 9.86,
-          "bhr": 0.125,
+          "booster_nf": 4.93,
+          "hedge_nf": 14.8,
+          "bhr": 0.333,
           "interpretation": "유보적·신중한 자세"
         },
         "여파": {
           "eojeols": 1760,
           "text_count": 1,
           "flag": "[단일텍스트]",
-          "booster_nf": 4.55,
+          "booster_nf": 7.95,
           "hedge_nf": 10.8,
-          "bhr": 0.421,
-          "interpretation": "유보적·신중한 자세"
+          "bhr": 0.736,
+          "interpretation": "균형 (약한 유보)"
         },
         "범위밖": {
           "eojeols": 1452,
           "text_count": 1,
           "flag": "[단일텍스트]",
-          "booster_nf": 4.13,
-          "hedge_nf": 2.75,
-          "bhr": 1.502,
+          "booster_nf": 8.95,
+          "hedge_nf": 4.13,
+          "bhr": 2.167,
           "interpretation": "단언적·확신적 자세"
         }
       }
@@ -2726,9 +2762,9 @@
           "eojeols": 1824,
           "text_count": 3,
           "flag": "",
-          "booster_nf": 2.19,
-          "hedge_nf": 14.25,
-          "bhr": 0.154,
+          "booster_nf": 4.39,
+          "hedge_nf": 19.19,
+          "bhr": 0.229,
           "interpretation": "유보적·신중한 자세"
         },
         "전사": {
@@ -2747,9 +2783,9 @@
           "eojeols": 3081,
           "text_count": 2,
           "flag": "",
-          "booster_nf": 5.19,
-          "hedge_nf": 17.2,
-          "bhr": 0.302,
+          "booster_nf": 7.47,
+          "hedge_nf": 21.75,
+          "bhr": 0.343,
           "interpretation": "유보적·신중한 자세"
         },
         "여파": {
@@ -2757,8 +2793,8 @@
           "text_count": 1,
           "flag": "[단일텍스트]",
           "booster_nf": 3.53,
-          "hedge_nf": 7.07,
-          "bhr": 0.499,
+          "hedge_nf": 15.31,
+          "bhr": 0.231,
           "interpretation": "유보적·신중한 자세"
         },
         "범위밖": {
@@ -2782,9 +2818,9 @@
           "eojeols": 10489,
           "text_count": 4,
           "flag": "",
-          "booster_nf": 2.29,
-          "hedge_nf": 6.96,
-          "bhr": 0.329,
+          "booster_nf": 6.1,
+          "hedge_nf": 10.11,
+          "bhr": 0.603,
           "interpretation": "유보적·신중한 자세"
         },
         "발단": {
@@ -2797,18 +2833,18 @@
           "eojeols": 11430,
           "text_count": 4,
           "flag": "",
-          "booster_nf": 3.24,
-          "hedge_nf": 7.26,
-          "bhr": 0.446,
+          "booster_nf": 6.04,
+          "hedge_nf": 9.45,
+          "bhr": 0.639,
           "interpretation": "유보적·신중한 자세"
         },
         "여파": {
           "eojeols": 4964,
           "text_count": 3,
           "flag": "",
-          "booster_nf": 3.83,
-          "hedge_nf": 10.07,
-          "bhr": 0.38,
+          "booster_nf": 7.05,
+          "hedge_nf": 12.49,
+          "bhr": 0.564,
           "interpretation": "유보적·신중한 자세"
         },
         "범위밖": {
