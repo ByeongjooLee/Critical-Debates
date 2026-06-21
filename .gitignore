@@ -29,3 +29,6 @@ __pycache__/
 # Python 가상환경
 .venv/
 *.pyo
+
+# 분석 출력물(재현 가능)·개인 코딩 데이터·스크래치
+gigyo_analysis_package/gigyo_release/output/

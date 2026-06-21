@@ -1,1 +1,2 @@
 kiwipiepy==0.23.2
+openpyxl   # 코딩 워크시트 생성(make_coding_sheet.py·make_sample_coding.py)에만 필요
